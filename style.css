@@ -1,0 +1,114 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #c72222;
+    /* İç açıcı bir renk tonu */
+    color: #ffffff;
+    /* Yazı rengi */
+    padding: 20px;
+    text-align: left;
+    /* Yazıyı sola hizala */
+}
+
+header .logo {
+    margin: 0;
+    font-size: 2em;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+.menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: left;
+    background-color: #e01818;
+}
+
+.menu li {
+    margin: 0 15px;
+}
+
+.menu li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+    transition: background-color 0.3s ease;
+}
+
+.menu li a:hover {
+    background-color: #ff0202;
+    border-radius: 5px;
+}
+
+main {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.blog-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.blog-table td {
+    padding: 10px;
+}
+
+.blog-post {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.blog-post a {
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    flex-direction: column;
+}
+
+.blog-post:hover {
+    transform: scale(1.05);
+}
+
+.post-image {
+    height: 150px;
+    background-size: cover;
+    background-position: center;
+}
+
+.post-content {
+    padding: 15px;
+    background-color: #f9f9f9;
+}
+
+.post-content h2 {
+    margin: 0 0 10px;
+    font-size: 1.5em;
+}
+
+.post-content p {
+    margin: 0;
+    color: #ffffff;
+}
+
+footer {
+    background-color: #dd1f1f;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
